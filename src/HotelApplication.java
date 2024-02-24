@@ -19,9 +19,9 @@ public class HotelApplication {
         AdminResource ar = AdminResource.getInstance();
         List<IRoom> dataTest = new ArrayList<>();
         dataTest.add(new Room("R101", 101.2, RoomType.DOUBLE));
-//        dataTest.add(new FreeRoom("R102", RoomType.SINGLE));
-//        dataTest.add(new FreeRoom("R102", RoomType.DOUBLE));
-//        dataTest.add(new FreeRoom("R103", RoomType.DOUBLE));
+        dataTest.add(new FreeRoom("R102", RoomType.SINGLE));
+        dataTest.add(new FreeRoom("R102", RoomType.DOUBLE));
+        dataTest.add(new FreeRoom("R103", RoomType.DOUBLE));
         ar.addRoom(dataTest);
 
 
